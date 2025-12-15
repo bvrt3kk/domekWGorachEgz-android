@@ -15,9 +15,10 @@
         android:textSize="35sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/obraz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
         app:srcCompat="@drawable/obraz" />
 
     <LinearLayout
@@ -54,6 +55,7 @@
             android:backgroundTint="#008080"
             android:text="ZAPISZ"
             android:textColor="@color/white"
+            android:onClick="usunObrazek"
             app:cornerRadius="0dp" />
 
     </LinearLayout>
